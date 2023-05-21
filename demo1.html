@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <title>Registration form</title>
+  
+  <link rel="stylesheet" href="demo1.css">
+
+  
+  <script defer src="demo2.js">
+  </script>
+</head>
+<body>
+<h1 style="background-color:rgb(100,200,100);text-align:center;border-color: rgb(6, 41, 29); border-width: 5px;">Zongovita Registration</h1>
+<form  name="form" action="mailto:lokeshlukky666@gmail.com" method="post" enctype="text/plain"  >
+
+<div class ="input-control">
+<label >NAME  *</label><br>
+<input id ="idname"type="text" placeholder="enter your name" name="name" >
+<div class="error"></div>
+</div>
+<br>
+<label >FATHER NAME</label><br>
+<input type="text" placeholder="enter your father name" name="fname" >
+<br>
+<div class="input-control">
+<label>D.O.B  *</label><br>
+<input type="date" id="iddob" name="DOB" >
+<div class="error"></div>
+</div>
+<br>
+<div class="input-control">
+<label >AGE  *</label><br>
+<input  id="#age" type="number" placeholder="enter your age" name="Age" >
+<div class="error"></div>
+</div>
+<br>
+<label>GENDER</label>
+
+<br>
+<div>
+   <input type="radio" name="gender" value="male" style="width:10px;">
+<label>Male</label>
+
+   <br>
+   <!-- <br> -->
+   <input type="radio" name="gender" value="female"  style="width:10px;">
+<label>Female</label>
+
+<!-- <br> -->
+<!-- <br> -->
+</div>
+<br>
+<label >ADDRESS</label><br>
+<input type="text" placeholder="enter your address" name="address">
+
+
+<br>
+<div class="input-control">
+<label >EMAIL ID  *</label><br>
+<input id="#email" type="text" placeholder="ex:exce@123a.com" name="email"    >
+<div class="error"></div>
+</div>
+<br>
+<div class="input-control">
+<label>PHONE NUMBER  *</label><br>
+<select style="width:100px; border: 2px solid powderblue;">
+
+<option>+91</option>
+<option>+90</option>
+
+        </select>
+<input style="width:1400px;" name="sphone" id="#phno"type="number"  maxlength="10"  >
+<div class="error"></div>
+</div>
+
+<label>QUALIFICATION  </label><br><br>
+<select style="width:100px; border: 2px solid powderblue; ">
+
+      <option>BE</option>
+      <option>BTECH</option>
+      <option>BSC</option>
+      <option>BCOM</option>
+      <option>BA</option>
+      <option>OTHER</option>
+
+   </select>
+<input style="width:1300px;" type="text" placeholder="enter your stream" name="stream"    >
+<br>
+<div class="input-control">
+<label>YEAR OF PASSOUT  *</label><br>
+<input type="number" id ="#yop"placeholder="enter year"   name="YOP">
+<div class="error"></div>
+</div>
+<br>
+<label>SCORE</label><br>
+<input type="number" id="#per" placeholder="percentage %" name="percentage">
+<br>
+<label>IT CERTIFICATIONS</label>
+<br>
+<input type="text" placeholder="enter your IT certifications names" name="It certifications">
+<br>
+<label>IT SKILLS</label>
+<br>
+<input type="text" placeholder="ex: java, c++,tools so on" name="SKILLS">
+<br>
+<label>CURRENT LOCATION</label><br>
+<input type="text" placeholder="enter your Location" name="Location">
+<br>
+<label>POINT OF CONTACT</label><br>
+<input type="text" placeholder="enter your poc name" name="p.o.c"    >
+<div>
+<input type="submit" value="submit" method="post"  style=" background-color: rgb(169, 169, 208);"    >
+<!-- <button type="submit" onclick="return hi()" style=" background-color: rgb(169, 169, 208);">Submit</button> -->
+ </div>
+</form>
+</body>
+</html>

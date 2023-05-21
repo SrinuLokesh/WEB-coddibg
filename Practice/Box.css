@@ -1,0 +1,39 @@
+/* h1{
+    background-color: red;
+    background: orange;
+    padding-top: 30;
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding-left: 10px;
+}
+p{
+    background: rebeccapurple;
+    color: blanchedalmond;
+    padding: 30px 30px 30px 30px ;
+
+} */
+*
+{
+    margin: 0%;
+}
+h1{
+    background: rgb(234, 255, 0);
+    padding: 10px;
+    margin: 10px;
+    margin-left: 100px;
+    border-style: solid;
+    border-radius: 10px;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 200px;
+    border-bottom: px;
+}
+p{
+    background: rgb(117, 135, 216);
+    padding: 10px;
+    margin:+10px;
+    margin-left: 100px;
+    border-style: solid;
+
+   negative: ;
+    border-bottom: rgb(121, 97, 97) solid;
+}

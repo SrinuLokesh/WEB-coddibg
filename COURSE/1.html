@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 1</title>
+    <style>
+        /* descendent selectors */
+        /* syntax for selector: selector1 selector2{} */
+        /* div p{
+            background-color: blue;
+            /* now it will select all p's of odf div*/
+        /* }
+        div h1{
+            background-color: green;
+        }
+        #box h2
+        {
+            background-color: aqua;
+        }
+        #nested-div
+        {
+            background-color: black;
+            color:aliceblue;
+        } */ 
+
+        /* is for child selectors*/
+
+        /* #h>h1{
+            background-color: aqua;
+        }
+        #hi>h1{
+            background-color: blue;
+        } */
+       
+        /*for general sibling*/
+
+        h1~p{
+            background-color: aqua;
+        }
+        h1+p{
+            background-color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div> is for descendant selectore space we need to give
+        <p>iam para</p>
+        <h1>iam heading</h1>
+        <div id="box">iam box
+            <h2>iam h2 tag</h2>
+        </div>
+    </div>
+    <div>
+        <div id="nested-div">
+            <div>
+                <div>
+                    <div>
+                        <h3>iam h3</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> -->
+
+    <!-- child selectors -->
+    <!-- <div id="h" >
+        <h1>iam child of 1st div</h1>
+        <div id="hi">
+            <h1>iam child of 2nd div</h1>
+        </div>
+    </div> -->
+<!-- 
+    General sibling -->
+    <div>
+        <h1>h1</h1>
+        <p>p1</p>
+        <p>p2</p>
+        <p>p3</p>
+        <p>p4</p>
+    </div>
+
+
+
+</body>
+</html>

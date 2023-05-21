@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <!-- <link rel="stylesheet" href="Box.css"> -->
+    <style>
+      #heading {
+        text-align: center;
+       text-transform: capitalize;
+        width: 40%;
+        margin: auto;
+      }
+      #heading h1 {
+        font-size: 40px;
+      }
+      #cards-section {
+        width: 60%;
+       
+        height: 500px;
+        margin: auto;
+        display: flex;
+        margin-top: 40px;
+      }
+      #cards-section > div {
+        width: 30%;
+        text-transform: capitalize;
+        box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+       
+        text-align: center;
+        margin: auto;
+      }
+      #cards-section h1 + p {
+        text-transform: capitalize;
+        margin-top: -20px;
+      }
+      #cards-section>div>p+p{
+        line-height: 20px;
+        padding: 0px 20px 0px 20px;
+        font-size: large;
+      }
+      #cards-section>div:first-child >h1{
+        color: green;
+      }
+      #cards-section>div:last-child >h1{
+        color:rgb(255, 132, 0);
+      }
+      #cards-section>div:nth-child(2) >h1{
+        color: rgb(0, 100, 128);
+      }
+      button{
+      
+        background-color: transparent;
+        text-transform: capitalize;
+        color: blue;
+        font-size: 22px;
+        font-weight: bold;
+        border-radius: 20px;
+        padding: 10px 20px 10px 20px;
+        margin-bottom: 30px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="heading">
+      <h1>choose the right of yuor bussiness</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, ad. Lorem
+        ipsum dolor sit amet consectetur adipisicing elit. Saepe, iste!
+      </p>
+    </div>
+
+    <!-- cards section -->
+    <div id="cards-section">
+      <!-- this section should contains 3 children divs and has h1 h2 p p -->
+      <div>
+        <h2>start</h2>
+        <h1>free</h1>
+        <p>per month</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          reiciendis?
+        </p>
+        <button>start now</button>
+      </div>
+      <div>
+        <h2>start</h2>
+        <h1>free</h1>
+        <p>per month</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          reiciendis?
+        </p>
+        <button>start now</button>
+      </div>
+      <div>
+        <h2>start</h2>
+        <h1>free</h1>
+        <p>$35</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis,
+          reiciendis?
+        </p>
+        <button>start now</button>
+      </div>
+    </div>
+  </body>
+</html>

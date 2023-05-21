@@ -1,0 +1,79 @@
+
+
+/* 
+Selectors
+element seectors
+Group selectors
+Id selectors
+class selectors
+
+*/
+/* element selectors */
+/* h1{
+    color: red;
+}
+p{
+    color: blue;
+}
+h2{
+    color: blue;
+} */
+/* Group selectors */
+/* body{
+    color
+    :red;
+}
+
+h1,h2,p{
+    color: aquamarine;
+} */
+
+/* Id selector */
+/* body
+{
+    font-size: 1.5rem;
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+h1
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: aqua;
+} */
+
+/* .one
+{
+    font-weight: bold;
+    color:rgb(51, 83, 153);
+    line-height: 3.9em;
+    letter-spacing: 2.5px;
+}
+h1{
+    font-weight: 100;
+}
+.par{
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    text-indent: 1000px;
+} */
+/* body{
+    text-align: center;
+}
+.block
+{
+    background: blue;
+    color: red;
+    /* display: inline; */
+    /* width:200px; */
+    /* margin: 20px auto; */
+   /* margin-left: auto;
+    margin-right: auto;
+}
+.inline
+{
+    background: blue;
+ /* display: block; */
+/*} */
+
